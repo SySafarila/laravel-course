@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,3 +21,7 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+// Components
+Route::get('/course-1', 'ComponentsController@course1')->name('course1');
+Route::get('/course-2', 'ComponentsController@course2')->name('course2');
