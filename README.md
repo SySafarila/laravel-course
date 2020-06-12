@@ -1,9 +1,9 @@
 # laravel-course
 ## Learn About Components In Laravel
 ### Task's
-- Generate new component.
-- Displaying components.
-- Passing data to components.
+- Generate new component. | ✔
+- Displaying components. | ✔
+- Passing data to components. ½ | ✔
   - Casing.
   - Component methods.
   - Additional dependencies.
